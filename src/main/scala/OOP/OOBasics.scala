@@ -14,6 +14,6 @@ class Person(val name: String, val age: Int) {
   //overloading
   def greet(): Unit = println(s"Hi, I am $name")
 
-  def this (name: Sting) = this(name,0)
+  def this (name: String) = this(name,0)
 }
 //class parameters is not fields
